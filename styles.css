@@ -157,5 +157,10 @@ body {
 }
 
 .sec-height {
-  min-height: 25vh;
+  height: 47.8vh;
+}
+
+.code-link {
+  padding-bottom: 0.5rem 0rem;
+  display: block;
 }
