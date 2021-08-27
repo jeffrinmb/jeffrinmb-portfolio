@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #233c61;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  margin: auto;
+  max-width: 600px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 1rem;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.offwhite {
+  background-color: var(--off-white);
+}
+
+.hero {
+  padding: 1rem 2rem;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 100%;
+}
+
+.hero .hero-heading {
+  padding: 1rem 0rem;
+  text-align: center;
+  color: var(--dark-gray);
+}
+
+.hero .hero-description {
+  text-align: center;
+}
+
+.hero .desc-inverted {
+  color: var(--primary-color);
+}
+
+.nav-page {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.nav-page .nav-link-prev {
+  float: left;
+}
+
+.nav-page .nav-link-next {
+  float: right;
+}
+
+.nav-page .link {
+  font-weight: bolder;
+  padding: 0.5rem 2rem;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.section p {
+  padding-bottom: 0.5rem;
+}
+
+.section .link-live {
+  float: left;
+}
+
+.section .link-source {
+  float: right;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.img-social {
+  max-width: 50px;
+}
+
+.link-social {
+  padding: 0rem 2rem;
+}
+
+.sec-height {
+  min-height: 25vh;
+}
