@@ -130,6 +130,10 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.section .link-head {
+  color: var(--primary-color);
+}
+
 .section .link-live {
   float: left;
 }
@@ -182,5 +186,12 @@ body {
 
   .code-link .link {
     display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation .list-item-inline {
+    display: block;
+    margin-bottom: 0.25rem;
   }
 }
