@@ -162,7 +162,7 @@ body {
 }
 
 .sec-height {
-  height: 47.8vh;
+  min-height: 47.8vh;
 }
 
 .code-link {
@@ -194,4 +194,36 @@ body {
     display: block;
     margin-bottom: 0.25rem;
   }
+}
+
+.section-mail-form {
+  margin: auto;
+}
+
+form {
+  margin: auto;
+}
+
+.form-control {
+  display: block;
+  margin: auto;
+}
+
+.form-control input,
+.form-control label,
+.form-control textarea {
+  display: block;
+  padding: 0.3rem;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-family: var(--);
+}
+
+.btn-submit {
+  display: block;
+  margin: 2rem auto;
 }
